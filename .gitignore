@@ -13,4 +13,3 @@ dash/venv
 dash/*.pyc
 dash/.DS_Store
 dash/.env
-dash
