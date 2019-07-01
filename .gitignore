@@ -1,7 +1,7 @@
 dash-aws
 sanger1018_brainarray_ensemblgene_rma.txt
 .DS_Store
-.ipynb_checkpoints/*
+.ipynb_checkpoints
 extra_data/*
 dash-aws/*
 flask/*
@@ -13,4 +13,4 @@ dash/venv
 dash/*.pyc
 dash/.DS_Store
 dash/.env
-
+dash
