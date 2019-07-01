@@ -3,12 +3,10 @@ sanger1018_brainarray_ensemblgene_rma.txt
 .DS_Store
 .ipynb_checkpoints
 extra_data/*
-dash-aws/*
-flask/*
-insight/*
-insight_data_exercise/*
-mecan/*
-obs/*
+flask
+insight
+insight_data_exercise
+obs
 dash/venv
 dash/*.pyc
 dash/.DS_Store
