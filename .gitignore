@@ -1,5 +1,6 @@
 dash-aws
 sanger1018_brainarray_ensemblgene_rma.txt
+*.xlsx
 .DS_Store
 .ipynb_checkpoints
 extra_data/*
