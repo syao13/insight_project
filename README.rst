@@ -11,11 +11,11 @@ Dependencies
 ------------
 Data used for this project can be downloaded from the Genomics of Drug Sensitivity in Cancer Project (link_):
 
-.. codeblock:: bash
+.. code:: bash
 
-wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/sanger1018_brainarray_ensemblgene_rma.txt.gz"
-wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/Cell_Lines_Details.xlsx"
-wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/v17.3_fitted_dose_response.xlsx"
+   wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/sanger1018_brainarray_ensemblgene_rma.txt.gz"
+   wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/Cell_Lines_Details.xlsx"
+   wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/v17.3_fitted_dose_response.xlsx"
 
 
 This project depends the following Python libraries:
@@ -50,13 +50,15 @@ Usage
    * To train and test different model parameters:
 
 .. code:: bash
-python3 train_models.py
+
+   python3 train_models.py
 
 
    * To build models with the proper parameters:
 
 .. code:: bash
-python3 build_models.py
+
+   python3 build_models.py
 
 
 .. _link: https://www.cancerrxgene.org/
