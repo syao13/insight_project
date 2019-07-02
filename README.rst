@@ -11,7 +11,7 @@ Dependencies
 ------------
 Data used for this project can be downloaded from the Genomics of Drug Sensitivity in Cancer Project (link_):
 
-.. code:: bash
+.. codeblock:: bash
 
 wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/sanger1018_brainarray_ensemblgene_rma.txt.gz"
 wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/Cell_Lines_Details.xlsx"
