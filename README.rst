@@ -51,14 +51,14 @@ To train and test different model parameters:
 
 .. code:: bash
 
-   python3 train_models.py
+   python3 train_models.py trained_models.txt
 
 
 To build models with the proper parameters:
 
 .. code:: bash
 
-   python3 build_models.py
+   python3 build_models.py built_models.txt
 
 
 .. _link: https://www.cancerrxgene.org/
