@@ -44,17 +44,17 @@ To install dependencies manually:
 
 Usage
 -----
-   * 'eda.ipynb' contains code for exploratory data analysis.
+'eda.ipynb' contains code for exploratory data analysis.
 
 
-   * To train and test different model parameters:
+To train and test different model parameters:
 
 .. code:: bash
 
    python3 train_models.py
 
 
-   * To build models with the proper parameters:
+To build models with the proper parameters:
 
 .. code:: bash
 
