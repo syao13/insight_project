@@ -30,6 +30,9 @@ dose = pd.read_excel("v17.3_fitted_dose_response.xlsx")
 drug_ids = dose.DRUG_ID.value_counts().index.tolist()
 drug_counts = dose.DRUG_ID.value_counts()
 #drug_id = 1494
+importance_number = 100
+
+
 
 def test_models(drug_id):
     onedrug_name = dose.loc[dose['DRUG_ID'] == drug_id]['DRUG_NAME'].tolist()[0]
@@ -64,14 +67,14 @@ def test_models(drug_id):
     
     ## save important genes
     importance_idx = np.argsort(model.feature_importances_)
-    important_genes = {onedrug_name: onedrug_data['ensembl_gene'][importance_idx[-50:]].tolist()}
+    important_genes = {onedrug_name: onedrug_data['ensembl_gene'][importance_idx[-importance_number:]].tolist()}
     filepath = './conf/'+ onedrug_name + '.json'
     with open(filepath, 'w') as outfile:
         json.dump(important_genes, outfile)
     
     ## second random forest
-    X_train_subset = X_train.iloc[:, importance_idx[-50:]]
-    X_test_subset = X_test.iloc[:, importance_idx[-50:]]
+    X_train_subset = X_train.iloc[:, importance_idx[-importance_number:]]
+    X_test_subset = X_test.iloc[:, importance_idx[-importance_number:]]
     model = RandomForestRegressor(max_depth=5, random_state=0, n_estimators=200)
     model.fit(X_train_subset, y_train)
     
