@@ -13,9 +13,9 @@ Data used for this project can be downloaded from the Genomics of Drug Sensitivi
 
 .. code:: bash
 
-   wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/sanger1018_brainarray_ensemblgene_rma.txt.gz"
-   wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/Cell_Lines_Details.xlsx"
-   wget "ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/v17.3_fitted_dose_response.xlsx"
+   wget "ftp://ftp.sanger.ac.uk/pub4/cancerrxgene/releases/release-7.0/sanger1018_brainarray_ensemblgene_rma.txt.gz"
+   wget "ftp://ftp.sanger.ac.uk/pub4/cancerrxgene/releases/release-7.0/Cell_Lines_Details.xlsx"
+   wget "ftp://ftp.sanger.ac.uk/pub4/cancerrxgene/releases/release-7.0/v17.3_fitted_dose_response.xlsx"
 
 
 This project depends the following Python libraries:
